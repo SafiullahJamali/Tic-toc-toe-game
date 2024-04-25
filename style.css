@@ -12,7 +12,6 @@ body{
 }
 
 .container
-
 {
 
         position: absolute;
@@ -29,9 +28,11 @@ body{
     flex-wrap: wrap;
     gap: 1rem;
     align-items: center;
-    justify-content: center;    
+    justify-content: center;
+    margin-top: 5rem;    
 
 }
+
 .box{
         
     height: 18vh;
@@ -44,17 +45,47 @@ body{
     
 }
 
+.buttons{
+
+        height: 20vmin;
+
+}
+
 #R-btn{
 
-    margin-top: 30rem;
+    margin-top: 32rem;
     padding: 1rem;
     width: 120px;
-    background-color:  #DBD8F0;
-    color: black;
+    background-color: black;
+    color: white;
     font-size: 15px;
     border-radius: 1rem;
     border: none;
 }
+
+#N-btn{
+
+    margin-top: 1rem;
+    padding: 1rem;
+    width: 120px;
+    background-color: black;
+    color: white;
+    font-size: 15px;
+    border-radius: 1rem;
+    border: none;
+}
+
+#msg{
+        color: white;
+        font-size: 5vmin;
+
+}
+
+.hide{
+
+    display: none;
+}
+
 
 /* Media query for smaller screens */
 @media screen and (max-width: 768px) {
@@ -85,4 +116,4 @@ body{
     #R-btn {
         margin-top: 1rem;
     }
-}
+} 
